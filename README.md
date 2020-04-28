@@ -1,41 +1,33 @@
 # T-Rex Rush 
 
-![](https://github.com/shivamshekhar/Chrome-T-Rex-Rush/raw/master/screenshot.png)
+The base code for this repo is written by: Shivam Shekhar
+https://github.com/shivamshekhar/Chrome-T-Rex-Rush.git
 
-![](https://github.com/shivamshekhar/Chrome-T-Rex-Rush/raw/master/screenshot.gif)
-
-### Description:
-A recreated version of the famous Chrome T-Rex in Python 
+### New Feature:
+Instead of controlling the T-Rex with keyboard. The controls are now shifted to webcam. The game tracks the position of your nose so when you look up, the T-Rex jumps; and when you look down, it ducks.    
 
 ### Technology:
-Built using pygame library
-
-### Version and Release:
-First Release, version 1.0
+Game is built in Pygame Library
+Nose Tracking is done using opencv and dlib
 
 ### Target Platforms:
-Windows/Linux
+Linux
 
-### Instructions and Prerequisites:   
+### Prerequisites:
+* pygame - pip install pygame
+* dlib - pip install dlib
+* cv2 - pip install opencv-python
+
+### Instructions:   
 To run this game:  
-* Make sure you have Python installed alongwith pygame (http://www.pygame.org/) library
 * Run main.py
 
-##### Controls:
-* Press UP or SPACE to make T-Rex jump over the obstacles
-* Press DOWN key to crouch
-* Avoid getting hit by obstacles. 
+### Controls: 
+* START - SPACE
+* EXIT  - ESC
+* JUMP  - look up
+* DUCK  - look down
 
-### Developed by: 
-Shivam Shekhar  
-Email: shivam.shekhar.ece14@itbhu.ac.in   
-
-#### Credits:
-* Sprites : https://chromedino.com/assets/offline-sprite-2x-black.png
-* Logo : https://textcraft.net/
-* Speech Bubble : http://pixelspeechbubble.com/
-* Sounds : https://github.com/vicboma1/T-Rex-Game/tree/master/Unity/Sounds
-
-#### References:
-* http://www.pygame.org/docs
-* https://github.com/wayou/t-rex-runner
+### Edited by: 
+Shubh Agarwal  
+Email: shubhagarwal566@gmail.com   
